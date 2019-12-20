@@ -9,7 +9,9 @@ Install gudev in ROS Medolic
     $ sudo apt install -f
 
 
-```sudo pico /etc/ros/kinetic/linorobot.d/minimal.launch
+```
+
+sudo pico /etc/ros/kinetic/linorobot.d/minimal.launch
 
 <launch>
 	<node pkg="rosbridge_server" type="rosbridge_websocket" name="rosbridge_websocket"/>

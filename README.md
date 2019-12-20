@@ -41,3 +41,9 @@ sudo pico /etc/ros/kinetic/linorobot.d/minimal.launch
 </launch>
 
 
+sudo pico /usr/sbin/linorobot-start
+
+rosrun kidbright cam_stream.py &
+
+
+

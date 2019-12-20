@@ -11,7 +11,6 @@ Install gudev in ROS Medolic
 
 ```sudo pico /etc/ros/kinetic/linorobot.d/minimal.launch
 ```
-```
 <launch>
 	<node pkg="rosbridge_server" type="rosbridge_websocket" name="rosbridge_websocket"/>
 	<node pkg="web_video_server" type="web_video_server" name="web_video_server"/>
